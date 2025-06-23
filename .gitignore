@@ -2,7 +2,7 @@
 node_modules/
 package-lock.json
 yarn.lock
-./src/whatsapp/
+src/whatsapp/
 webpack.config.js
 package.json
 src/index.js
