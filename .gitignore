@@ -1,0 +1,9 @@
+# 依赖文件
+node_modules/
+package-lock.json
+yarn.lock
+./src/whatsapp/
+webpack.config.js
+package.json
+src/index.js
+src/util/

@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "WhatsApp Web助手",
+    "version": "1.0",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://web.whatsapp.com/*"
+            ],
+            "js": [
+                "src/dist/content.js"
+            ],
+            "world": "MAIN"
+        }
+    ],
+    "icons": {
+        "16": "src/assets/icon16.png",
+        "48": "src/assets/icon16.png",
+        "128": "src/assets/icon16.png"
+    }
+}
